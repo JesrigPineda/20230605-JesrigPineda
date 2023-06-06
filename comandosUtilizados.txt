@@ -1,0 +1,43 @@
+   74  cd examen/terminal
+   75  touch comandos.txt main.js index.html,
+   76  git status
+   77  git add .
+   78  git commit -m "commit 01 de Jesrig Pineda"
+   79  git status
+   80  git push origin main
+   81  git status
+   82  git status
+   83  git checkout -b feature01
+   84  mkdir Terminal Hardware
+   85  cd Terminal/
+   86  touch resumen.txt
+   87  ls
+   88  cd..
+   89  cd ..
+   90  cd Hardware/
+   91  touch resumen.txt
+   92  ls
+   93  cd ..
+   94  ls
+   95  git status
+   96  git add .
+   97  git commit -m "commit 02 de JesrigPineda"
+   98  git status
+   99  git push origin feature01
+  100  ls
+  101  ls
+  102  ll
+  103  lc
+  104  ls
+  105  git checkout -b feature02
+  106  git status
+  107  git add .
+  108  git commit -m "commit 03 de JesrigPineda"
+  109  git push origin feature02
+  110  ls
+  111  git checkout main
+  112  mv comandos.txt comandosUtilizados.txt
+  113  git history
+  114  git log
+  115  git history
+  116  history
